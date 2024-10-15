@@ -1,0 +1,118 @@
+/* inter-300 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/inter-v18-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/inter-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/inter-v18-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/inter-v18-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* inter-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/inter-v18-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+.fon_str{
+  width: 1080px;
+  height: 1980px;
+  background: rgba(184,250,237,1);
+  opacity: 1;
+  position: absolute;
+  top: 500px;
+  left: 249px;
+}
+.todo{
+  font-family: ;
+  position: relative;
+  font-size: 100px;
+  color: #25635C;
+  width: 774px;
+  height: 166px;
+  left: 435px;
+  top: 50px;
+  text-align: center;
+
+}
+.inf{
+  position: relative;
+  font-size: 45px;
+  color: black;
+  left: -150px;
+  top: 10px;
+  text-align: center;
+}
+.pin{
+  position: fixed;
+  font-size: 100px;
+  width: 774px;
+  height: 166px;
+  left: 620px;
+  top: 50px;
+  text-align: center;
+}
+.enter{
+  position: relative;
+  background: aquamarine;
+  color: azure;
+  font-size: 40px;
+  font-style: oblique;
+  font-weight: 600;
+  width: 450px;
+  height: 70px;
+  left: -150px;
+  text-align: center;
+  -webkit-text-stroke: 2px black;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 5px 7px 10px #000000;
+}
+.more_detailed{
+  position: fixed;
+  font-size: 20px;
+  font-style: oblique;
+  background-color: honeydew;
+  left: 800px;
+  top: 540px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0px 7px 10px #ffffff;
+}
+.man{
+  position: fixed;
+  left: 50px;
+  top: 300px;
+  img-radius: 10px;
+}
