@@ -1,7 +1,11 @@
-const express = require('express')
+const express = require("express");
 
-const PORT = 5000
+const app = express();
 
-const app = express()
+app.get("/", (req, res) => {
+  res.status(200).json("Hello world");
+});
 
-app.listen(PORT, console.log(`Server started on port ${5000}`)) 
+module.exports = app.listen(process.env.PORT || 4000, () =>
+  console.log(`Running on http://localhost:4000`)
+);
